@@ -1,0 +1,26 @@
+header{
+    background-color: #d53d3e;
+    display: flex;
+    justify-content: space-between;    
+}
+.logo{
+    height: 6rem;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+#home,#about,#projects,#contact{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 25%;
+}
+.hovered{
+    color: black;
+    background-color: #bc4040;
+}
